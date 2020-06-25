@@ -1,0 +1,10 @@
+name: ctf-explorer
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - numpy
+  - IPython
+  - plotly
+  - ipywidgets
+  - appmode
