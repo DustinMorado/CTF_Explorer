@@ -18,7 +18,17 @@ tested it using:
 
 ## Usage
 
-I will update this with a badge to Binder instance as soon as I get that sorted.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DustinMorado/CTF_Explorer/master?urlpath=%2Fapps%2FCTF_Explorer.ipynb)
+
+Just click the badge above to run a Binder instance of the application or you
+can install and run it locally on your system:
+
+1. `git clone https://github.com/DustinMorado/CTF_Explorer.git`
+2. `cd CTF_Explorer`
+3. `conda env create -f environment.yml
+4. `conda activate ctf-explorer`
+5. `jupyter notebook --no-browser`
+6. Browse to `http://localhost:8888/apps/CTF_Explorer.py`
 
 ## Licensing
 
